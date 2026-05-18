@@ -1,0 +1,56 @@
+import { Asset } from './types';
+
+export const DUMMY_ASSETS: Asset[] = [
+  {
+    id: 'NS-LAB-2024-042',
+    name: 'Compound Microscope',
+    category: 'Lab Equipment',
+    location: 'Science Lab A',
+    serialNumber: 'SN-78234-A',
+    status: 'working',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD49QW6Mvqbx0Yd95qqP_zlM_pBZ58bXuqFzZ5KeRn3LdC-6VRGvhB2EKFVVZ2lx0TCukns4kLm8pBSUhruIM8F2VML24aT_gsJcezseFOdjbu-YmswmFRNTV4H63OOsAa0TMWXAAGCROWHdd06wj9FPHRkbR61-EHBis4b6wc01SZ_1-VfcWAMJ_MeVhTc_7QVXdXWGl3Z9HjsEW-UNULLp-kYX_yxHIEkbNNlqIggtLbS5OlMajatR6TnKMiOhB-HZ7Weov-YDkoR',
+    lastChecked: '2023-10-24',
+  },
+  {
+    id: 'NS-IT-55092-B',
+    name: 'Dell Latitude 5420',
+    category: 'IT Hardware',
+    location: 'Staff Room',
+    serialNumber: 'DL-9921-X',
+    status: 'working',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxyXmnCJ6TZ2qey9FID3HPKdJ-yjhG6B6enCSlsM4Rr0x1pha6u-lDs4lZrSI3xPKohVcyDKJ3asANAdU3u8IzepGqTY-sy0KZnNf9fgZxmIDdeJYf2yju_hA3dUf4OrpeKH4-uxbZTiFrxWaSn_KdQd0JixUoHdOwZ5y9ANbVyZnlkm9aqFAhnwGYnGNSv69xPXB5vt3TO0AMAyu0TWhP0oiIGBFg_aSAIV5YRlBfHCLzWhLPu4JgbyAGxUjzXJL2K9ADFHK0tef5',
+    lastChecked: '2023-11-05',
+    assignedTo: 'Ravi Kumar',
+  },
+  {
+    id: 'NS-AV-0091-PRJ',
+    name: 'Epson Projector 4K',
+    category: 'IT Hardware',
+    location: 'Classroom 10-A',
+    serialNumber: 'EP-4421-PRJ',
+    status: 'broken',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA64na1pPceuGGpro3Rzs_bnQnYusoRVyLVwOyQjP70aRHSEXf_m80WNL_1OuijB-tL_Ygj-cbIx62BrivGxQU7g_7BlxsTeoX0hkJu0bVF3vBZSPGHJofCAqAEkWR4O62HhQEYbPuHAQtArw9xT9SHe6Q0VXfHGx9zj9-00grroZGjvLCE0hfrfPwIR1IHdGCURgbZJTh9cguXozhkImCoCWHWtybK8WnkAb9Pq2cKjrjrUeWflt6gVp9sy3qznas5L2S9ANQlz_v0',
+    lastChecked: '2023-09-12',
+    notes: 'Maintenance Required',
+  },
+  {
+    id: 'NS-FUR-8821-ADM',
+    name: 'Ergonomic Staff Chair',
+    category: 'Furniture',
+    location: "Principal's Office",
+    serialNumber: 'CH-8821-ADM',
+    status: 'working',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCXQ6MJZgMI-UJfxCUMxmK5xUTGgrBQuQnd_Itko1NXi1P0IDpdt1jZVQIbnlj-J_pINOC5W2OF4t8RNgj05tw-ByfXFckJmWMNQ4da51fvo1h5fKM56tbImveqGBNWz1TZVobi7seb0KxCdlKrWM56A4bSfo4gNt_hOIk-1fT03zBjdo2Dlvlm6wGcqJYa10tWVL-DC5KH4TGhvsj9p_HjpLh6mmAPgAHKROKQNKDF7UbK926JosSoYXP59uRhIoYOPMnzjfYxgGkz',
+    lastChecked: '2023-10-20',
+  },
+  {
+    id: 'NS-LIB-4401-RK',
+    name: 'Steel Book Rack',
+    category: 'Furniture',
+    location: 'Central Library',
+    serialNumber: 'RK-4401-RK',
+    status: 'working',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBAdizoCf1eUzoQaK1L1COCBeo-pi9pMB9ThyXWRT8fyhoYSEgbAS5__jY9C0SkZ7dqGh2rWO08QaSkzMETPvDopKPQL7T52RFWYUhyxonm45QrBV33OqjIlIj6g1Xj-71GNQikZO1MrOMey0Wjr4tL0WfvPO2EoFDqX3RNHj2gOqvJDGJnHWVvDFzF5VpHjbL4R2bJ_ivo3JB5dOIMTdmqjey6SlZuH3FE1H4U0nwe1ZZpUZBAnDXrrG083Kfp_ERyEt1IGGM2TFiw',
+    lastChecked: '2023-10-15',
+  }
+];

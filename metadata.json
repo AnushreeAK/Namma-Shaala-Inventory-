@@ -1,0 +1,10 @@
+{
+  "name": "Namma-Shaale",
+  "description": "A professional school asset management system for tracking, auditing, and maintaining educational infrastructure with AI-powered insights.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
