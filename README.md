@@ -1,39 +1,103 @@
-# Namma-Shaale: School Asset Management System
+# MindMatrix VTU Internship Program
 
-Namma-Shaale is a professional, institutional-grade asset management application designed for school administrators and teachers. It streamlines the tracking, auditing, and maintenance of educational infrastructure through a modern, mobile-first interface and AI-powered intelligence.
+## Namma-Shaale Inventory – Digital Asset Auditor for Schools
+
+Namma-Shaale Inventory is an Android-based educational asset management application developed as part of the **MindMatrix VTU Internship Program** to help primary and secondary schools efficiently manage and monitor government-funded resources such as sports kits, laboratory equipment, tablets, furniture, and digital devices. The application acts as a smart “Digital Asset Auditor” that simplifies inventory tracking, condition monitoring, issue logging, and repair management through an easy-to-use mobile interface.
+
+## 📌 Problem Statement
+
+Many schools currently rely on manual registers and paper-based tracking systems for managing school assets. Due to the absence of a proper digital monitoring system, damaged or missing equipment is often identified very late, leading to resource wastage, poor maintenance, and lack of accountability. Teachers also face difficulties in auditing and maintaining school inventory efficiently.
+
+## 🎯 Project Vision
+
+The main objective of Namma-Shaale Inventory is to create a simple, professional, and offline-friendly digital solution that enables teachers and school administrators to register, track, and maintain school assets effectively. The system ensures that educational resources are properly utilized, monitored, and repaired whenever necessary.
+
+## 📱 App Usage & User Flow
+
+* **Asset Register:** Add asset name, category, serial number, purchase date, and asset photo.
+* **Condition Update:** Perform monthly health checks using Green, Yellow, and Red status indicators.
+* **Issue Log:** Record damaged, lost, or stolen items with date and issue description.
+* **Repair Request:** Generate repair requests for items requiring SDMC attention.
+* **Reports & Dashboard:** View asset statistics and generate shareable summary reports.
 
 ## 🚀 Key Features
 
-- **Teacher Dashboard**: Real-time overview of classroom asset health, including active inventory, items needing repair, and critical broken equipment.
-- **AI-Powered Audits**: Leverage Google's Gemini AI to synthesize complex audit data into professional executive summaries for School Development and Monitoring Committees (SDMC).
-- **Live Audit Interface**: A rapid-fire verification system for auditing lab equipment and classroom sets with one-tap status updates.
-- **Asset Inventory**: A searchable, filterable catalog of all school equipment with detailed metadata including serial numbers, room locations, and assigned personnel.
-- **Digital Capture**: "Add Asset" workflow featuring a camera preview interface and barcode scanning simulation for quick equipment intake.
+* Asset registration and inventory management
+* Monthly asset health check system
+* Issue logging and repair request workflow
+* QR/Barcode-based asset tracking
+* CameraX integration for asset photo capture
+* Dashboard analytics and reports
+* Offline-first Room Database support
+* PDF report generation and sharing
+* GenAI-assisted condition analysis and report drafting
+* Search, filter, and categorization support
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Implementation
 
 ### Frontend
-- **Framework**: React 19 with Vite 6
-- **Styling**: Tailwind CSS (Modern Corporate Aesthetic)
-- **Animations**: Framer Motion for fluid transitions and state changes
-- **Icons**: Lucide React
-- **Routing**: React Router 7
 
-### Backend
-- **Server**: Express.js
-- **Artificial Intelligence**: @google/genai (Gemini 1.5/3 Flash)
-- **Runtime**: Node.js with `tsx` for TypeScript execution
+* Android Studio
+* Kotlin / Java
+* Jetpack Compose / XML Layouts
+* Material Design UI
 
-## 📂 Project Structure
+### Backend & Database
 
-- `/src/App.tsx`: Main application router and navigation shell.
-- `/src/screens/`: Individual page components (Dashboard, AssetsList, AddAsset, etc.).
-- `/server.ts`: Express backend handling AI report generation and static file serving.
-- `/src/types.ts`: Shared TypeScript interfaces for assets and audit data.
-- `/metadata.json`: Application metadata and permissions.
+* Room Database (SQLite)
+* MVVM Architecture
+* Repository Pattern
 
-## 🚦 Getting Started
+### Additional Technologies
 
-1. **Environment Config**: Ensure `GEMINI_API_KEY` is set in your secrets to enable AI reporting.
-2. **Development**: Run `npm run dev` to start the full-stack development environment.
-3. **Build**: Run `npm run build` to compile the frontend and bundle the backend with esbuild.
+* CameraX API
+* Gemini AI API
+* WorkManager Notifications
+* Android Share Intent
+* PDF Generation APIs
+
+## 📊 Impact Goals
+
+* Improve tracking of school assets and educational resources
+* Reduce loss and misuse of government-funded equipment
+* Simplify maintenance and repair management
+* Promote accountability and transparency in schools
+* Encourage digital adoption among teachers and administrators
+
+## 📂 Project Modules
+
+* Authentication Module
+* Dashboard Module
+* Asset Management Module
+* Health Check Module
+* Issue Log Module
+* Repair Request Module
+* Reports & Analytics Module
+* Notifications Module
+* Settings Module
+
+## 📈 Success Criteria
+
+* Teachers can update multiple assets within minutes
+* Reports can be generated and shared quickly
+* Offline functionality works without internet access
+* Dashboard remains clean, organized, and user-friendly
+* Repair requests are accurately generated for damaged assets
+
+## 🔐 Future Enhancements
+
+* Multi-school centralized dashboard
+* Cloud synchronization
+* Kannada language support
+* Dark mode support
+* Biometric authentication
+* AI-based predictive maintenance
+* Google Drive backup integration
+
+## 👩‍💻 Developer
+
+**Anushree A Kadwadkar**
+MindMatrix VTU Internship Program
+Project No 59
+Project ID: #59
+Project Domain: Android App Development using Generative AI
